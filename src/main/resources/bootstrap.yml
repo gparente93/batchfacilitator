@@ -1,0 +1,17 @@
+---
+spring:
+  application:
+    name: facilitatorbatch
+
+server:
+  port: 8081
+
+---
+spring:
+  profiles: dev,staging, prod
+
+---
+spring:
+  profiles: dev
+
+
